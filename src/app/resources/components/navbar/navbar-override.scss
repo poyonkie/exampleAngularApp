@@ -1,0 +1,49 @@
+@import "../../../custom-variables";
+
+.main-top {
+	.only-static-top {
+		display: none;
+	}
+}
+.nav.navbar-nav.nav-date{
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+	li{
+		padding-top: 17px;
+		padding-bottom: 10px;
+		color: white;
+		font-size: .91em;
+		font-weight: lighter;
+	}
+}
+.main-aside {
+	.container {
+		width: inherit!important;
+		.navbar-collapse {
+			width: inherit;
+			margin-left: -15px;
+			margin-right: -15px;
+			ul {
+				width: 100%;
+				> li{
+					width: 100%;
+				}
+			}
+		}
+	}
+	.nav.navbar-nav.nav-date li{
+		padding-top: 5px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.only-static-top {
+		margin: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		hr {
+			margin-top: 0px;
+			margin-bottom: 0px;
+			border-style: dotted;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+@import "../custom-variables";
+
+.main-aside{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	padding: 0px;
+	background-color: $color-neutro;
+}
