@@ -1,0 +1,5 @@
+[
+{ "title":"Grid", "content":"grid", "data_reference": "datagrid.json" },
+{ "title":"Basic Form", "content":"form", "data_reference": "form.json"},
+{ "title":"Lorem Ipsum", "content":false, "data_reference": "loremipsum.txt", "disabled": false, "active": false }
+]

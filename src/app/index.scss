@@ -1,3 +1,5 @@
+@import "custom-variables";
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -11,6 +13,17 @@
   img.pull-right {
     width: 50px;
   }
+}
+
+.footer {
+	width: auto;
+	background-color: darken($color-neutro, 5%);
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 0px;
+	p {
+		padding: 15px;
+	}
 }
 
 /**

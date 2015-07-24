@@ -9,16 +9,15 @@
   <div class="col-md-10 col-md-offset-2">
     
     <div class="clearfix">
-      <div class="col-sm-6 col-md-4" ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
-        <div class="thumbnail">
-          <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
-          <div class="caption">
-            <h3>{{awesomeThing.title}}</h3>
-            <p>{{awesomeThing.description}}</p>
-            <p><a ng-href="{{awesomeThing.url}}">{{awesomeThing.url}}</a></p>
-          </div>
-        </div>
+    <!-- -->
+      <div class="thumbnail thumbs-tabs">
+        <tabset justified="true">
+          <tab ng-repeat="itemTab in tabs.allTabs" heading="{{itemTab.title}}" active="itemTab.active" disabled="itemTab.disabled">
+            <div ng-bind="itemTab.html" bind-compiled-html="itemTab.html"></div>
+          </tab>
+        </tabset>
       </div>
+      <!-- -->
     </div>
     
     <hr>
