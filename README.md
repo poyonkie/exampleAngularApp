@@ -8,10 +8,6 @@ Run `npm install; bower install` for building node and bower dependences.
 
 Run `gulp build` for building and `gulp serve` for preview.
 
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
-
 
 notes:
 	-_-
