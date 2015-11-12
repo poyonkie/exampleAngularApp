@@ -1,4 +1,4 @@
-<nav class="navbar navbar-static-top navbar-inverse" ng-controller="NavbarController as navbar">
+<nav class="navbar navbar-static-top navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false" aria-controls="navbar">
@@ -14,14 +14,14 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
       <ul class="nav navbar-nav">
-        <li ng-class="{ 'active': navbar.active.home}"><a ng-href="#/">Home</a></li>
-        <li ng-class="{ 'active': navbar.active.tabs}"><a ng-href="#/tabs">Tabs</a></li>
-        <li ng-class="{ 'active': navbar.active.accordion}"><a ng-href="#/accordion">Accordion</a></li>
+        <li ng-class="{ 'active': active.home}"><a ng-href="#/">Home</a></li>
+        <li ng-class="{ 'active': active.tabs}"><a ng-href="#/tabs">Tabs</a></li>
+        <li ng-class="{ 'active': active.accordion}"><a ng-href="#/accordion">Accordion</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right nav-date">
         <li class="only-static-top"><hr /></li>
-        <li>Current date: {{ navbar.date | date:'yyyy-MM-dd' }}</li>
+        <li>Current date: {{ date | date:'yyyy-MM-dd' }}</li>
       </ul>
 
     </div>

@@ -1,9 +1,9 @@
 <!-- Main container -->
 <div class="fluid-container">
   <!-- Main menu, top responsive -->
-  <div class="visible-xs-block visible-sm-block main-top" ng-include="'app/resources/components/navbar/navbar.html'"></div>
+  <div class="visible-xs-block visible-sm-block main-top" ng-include="'app/resources/components/navbar/navbar.html'" ng-controller="NavbarTopController"></div>
   <!-- Main menu, aside responsive -->
-  <div class="col-md-2 hidden-sm hidden-xs main-aside" ng-include="'app/resources/components/navbar/navbar.html'"></div>
+  <div class="col-md-2 hidden-sm hidden-xs main-aside" ng-include="'app/resources/components/navbar/navbar.html'" ng-controller="NavbarAsideController"></div>
 
   <!-- General info -->
   <div class="col-md-10 col-md-offset-2">
