@@ -6,7 +6,7 @@ Run `npm install; bower install` for building node and bower dependences.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+Run `gulp build` for building and `gulp serve` for preview.
 
 ## Testing
 
